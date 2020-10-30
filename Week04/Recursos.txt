@@ -1,0 +1,11 @@
+Autoencoders tradicionales:
+-PCA
+-Descomposicion en valores singulares
+-Factorización no negativa de matrices
+
+Exploratory data analysys:
+-Incrustacion de barrido estocástico: incrusta los datos dimensionales mas grandes en el pequeño
+tamaño dimensional en orden para visualizacion, asi que se puede trazar la dispersion ya sea 
+2D o 3D
+-TSNE : no funciona en imagenes dada su alta complejidad, para ello debemos usar un autoencoder
+previamente , con ello podremos visulizar datos de bajo nivel ,así como imagenes y audio
